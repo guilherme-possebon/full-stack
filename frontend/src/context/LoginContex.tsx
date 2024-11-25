@@ -34,8 +34,6 @@ export const LoginProvider: FunctionComponent<ILoginProviderProps> = ({
       password: password,
       name: name,
     });
-
-    localStorage.setItem("user", JSON.stringify(user));
   }
 
   return (

@@ -9,6 +9,6 @@ export function loginApi({ email, password }: IloginApiProps) {
   return {
     name: "Guilherme Possebon",
     email: "gpossebon67@gmail.com",
-    poassword: "teste",
+    password: "teste",
   };
 }
