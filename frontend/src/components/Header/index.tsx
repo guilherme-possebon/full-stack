@@ -1,7 +1,15 @@
+import { HeaderContainer, HeaderContent } from "./styles";
+
 export function Header() {
   return (
     <>
-      <div></div>
+      <HeaderContainer>
+        <HeaderContent>
+          <div>
+            <img src="" alt="" />
+          </div>
+        </HeaderContent>
+      </HeaderContainer>
     </>
   );
 }
